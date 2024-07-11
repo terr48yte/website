@@ -100,7 +100,8 @@ export const FormCheckKhodam = () => {
     <Card>
       <CardHeader>
         <CardTitle>
-          Selamat {khodam.user} Khodam Kamu Adalah {khodam.nama}
+          Selamat {khodam.user.toUpperCase()} Khodam Kamu Adalah{" "}
+          {khodam.nama.toUpperCase()}
         </CardTitle>
         <CardDescription>{khodam.deskripsi}</CardDescription>
       </CardHeader>
